@@ -1,0 +1,4 @@
+---
+- hosts: webserver
+  roles:
+    - role: '/etc/ansible/playbooks/mysql'
