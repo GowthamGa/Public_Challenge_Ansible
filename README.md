@@ -1,5 +1,5 @@
 # Public_Challenge_Ansible
-Ansible script to install Softwares
+Ansible script to install Softwares in RedHat Linux.
 
 Step 1: Create Hosts Inventory File.
 
