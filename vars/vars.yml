@@ -1,0 +1,3 @@
+---
+mysql_root_password: QWEasd@123
+repo: https://repo.mysql.com/mysql80-community-release-el7-3.noarch.rpm
