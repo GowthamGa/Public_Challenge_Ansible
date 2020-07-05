@@ -1,0 +1,24 @@
+[root@ip-172-31-33-36 ~]# telnet localhost 80
+Trying ::1...
+Connected to localhost.
+Escape character is '^]'.
+^C^]
+telnet> quit
+Connection closed.
+
+[root@ip-172-31-33-36 ~]# telnet localhost 8080
+Trying ::1...
+Connected to localhost.
+Escape character is '^]'.
+^]
+telnet> quit
+Connection closed.
+
+[root@ip-172-31-33-36 ~]# telnet localhost 3306
+Trying ::1...
+Connected to localhost.
+Escape character is '^]'.
+J
+8.0.20  +CpMSy▒%fz70l);I|Fcaching_sha2_password^]
+telnet> quit
+Connection closed.
