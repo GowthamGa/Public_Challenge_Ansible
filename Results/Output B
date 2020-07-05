@@ -1,0 +1,27 @@
+[root@ip-172-31-33-36 ~]# curl -vk https://www.google.com
+* About to connect() to www.google.com port 443 (#0)
+*   Trying 74.125.200.104...
+* Connected to www.google.com (74.125.200.104) port 443 (#0)
+* Initializing NSS with certpath: sql:/etc/pki/nssdb
+* skipping SSL peer certificate verification
+* SSL connection using TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+* Server certificate:
+*       subject: CN=www.google.com,O=Google LLC,L=Mountain View,ST=California,C=US
+*       start date: Jun 17 14:31:22 2020 GMT
+*       expire date: Sep 09 14:31:22 2020 GMT
+*       common name: www.google.com
+*       issuer: CN=GTS CA 1O1,O=Google Trust Services,C=US
+> GET / HTTP/1.1
+> User-Agent: curl/7.29.0
+> Host: www.google.com
+> Accept: */*
+>
+< HTTP/1.1 200 OK
+< Date: Sun, 05 Jul 2020 13:33:21 GMT
+< Expires: -1
+< Cache-Control: private, max-age=0
+< Content-Type: text/html; charset=ISO-8859-1
+< P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+< Server: gws
+< X-XSS-Protection: 0
+< X-Frame-Options: SAMEORIGIN
