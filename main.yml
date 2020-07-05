@@ -1,0 +1,8 @@
+---
+# tasks file for mysql
+- import_tasks: '/etc/ansible/playbooks/mysql/tasks/webserver.yml'
+  when: ansible_facts['os_family']|lower == 'redhat'
+- import_tasks: '/etc/ansible/playbooks/mysql/tasks/mysql.yml'
+  when: ansible_facts['os_family']|lower == 'redhat'
+- import_tasks: '/etc/ansible/playbooks/mysql/tasks/install.yml'
+  when: ansible_facts['os_family']|lower == 'redhat'
